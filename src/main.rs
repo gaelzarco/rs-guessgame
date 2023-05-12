@@ -10,8 +10,8 @@ use rand::Rng;
 // cargo check (checks if code compiles but does not create an executable)
 // cargo run (compiles the code and runs the .\target\debug\guessing_game.exe executable)
 // cargo update (updates creates (dependencies) listed in cargo.toml and cargo.lock)
-// cargo build (builds debug build of project)
-// cargo build --release (builds end-user build of project)
+// cargo build (compiles debug build of project)
+// cargo build --release (compiles end-user build of project with more optimizations than the debug version but takes longer)
 
 fn main() {
     println!("Guess the number");
